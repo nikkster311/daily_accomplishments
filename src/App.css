@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #009975;
+}
+
+.App {
+  min-height: 100%;
+}
+.completed {
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #c2b49d;
+  min-height: 100px;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.App-body{
+  background-image: url("Green_sea.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 80vh;
+  width: 75%;
+  margin: auto;
+}
+
+.App-body h4 {
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  background-color: #a1f7d3;
+  margin: 15px;
+  border-radius: 4px;
+  opacity: 70%;
+}
+
+button:hover {
+  background-color: #72edba;
+
+}
